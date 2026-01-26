@@ -1,0 +1,8 @@
+def personal_information():
+    print("Name: Alex Jones")
+    print("Address: 1533 Main Street, Springfield, IL, 62704 ")
+    print("Telephone: 163-134-7454")
+    print("College Major: Art")
+personal_information()
+
+#By Enoch Xiong
