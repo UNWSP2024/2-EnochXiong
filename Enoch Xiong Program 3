@@ -1,0 +1,16 @@
+def calculate_total_purchase():
+    total = 0
+
+    for i in range(1,6):
+        price = float(input("Enter item price: "))
+        total = total + price
+
+    tax = total * 0.07
+    final = total + tax
+
+    print("Subtotal:", total)
+    print("Sales tax:", tax)
+    print("Total:", final)
+calculate_total_purchase()
+
+#By Enoch Xiong
